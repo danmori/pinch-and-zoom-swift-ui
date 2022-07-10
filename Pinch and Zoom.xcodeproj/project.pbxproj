@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1C2BB51287B967C004E6FA4 /* Pinch_and_ZoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2BB50287B967C004E6FA4 /* Pinch_and_ZoomApp.swift */; };
+		F1C2BB53287B967C004E6FA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2BB52287B967C004E6FA4 /* ContentView.swift */; };
+		F1C2BB55287B967F004E6FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C2BB54287B967F004E6FA4 /* Assets.xcassets */; };
+		F1C2BB58287B967F004E6FA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C2BB57287B967F004E6FA4 /* Preview Assets.xcassets */; };
+		F1C2BB62287B967F004E6FA4 /* Pinch_and_ZoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2BB61287B967F004E6FA4 /* Pinch_and_ZoomTests.swift */; };
+		F1C2BB6C287B967F004E6FA4 /* Pinch_and_ZoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2BB6B287B967F004E6FA4 /* Pinch_and_ZoomUITests.swift */; };
+		F1C2BB6E287B967F004E6FA4 /* Pinch_and_ZoomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2BB6D287B967F004E6FA4 /* Pinch_and_ZoomUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1C2BB5E287B967F004E6FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C2BB45287B967C004E6FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C2BB4C287B967C004E6FA4;
+			remoteInfo = "Pinch and Zoom";
+		};
+		F1C2BB68287B967F004E6FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1C2BB45287B967C004E6FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1C2BB4C287B967C004E6FA4;
+			remoteInfo = "Pinch and Zoom";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1C2BB4D287B967C004E6FA4 /* Pinch and Zoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pinch and Zoom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C2BB50287B967C004E6FA4 /* Pinch_and_ZoomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinch_and_ZoomApp.swift; sourceTree = "<group>"; };
+		F1C2BB52287B967C004E6FA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F1C2BB54287B967F004E6FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1C2BB57287B967F004E6FA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1C2BB5D287B967F004E6FA4 /* Pinch and ZoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pinch and ZoomTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C2BB61287B967F004E6FA4 /* Pinch_and_ZoomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinch_and_ZoomTests.swift; sourceTree = "<group>"; };
+		F1C2BB67287B967F004E6FA4 /* Pinch and ZoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pinch and ZoomUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C2BB6B287B967F004E6FA4 /* Pinch_and_ZoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinch_and_ZoomUITests.swift; sourceTree = "<group>"; };
+		F1C2BB6D287B967F004E6FA4 /* Pinch_and_ZoomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinch_and_ZoomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1C2BB4A287B967C004E6FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C2BB5A287B967F004E6FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C2BB64287B967F004E6FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1C2BB44287B967C004E6FA4 = {
+			isa = PBXGroup;
+			children = (
+				F1C2BB4F287B967C004E6FA4 /* Pinch and Zoom */,
+				F1C2BB60287B967F004E6FA4 /* Pinch and ZoomTests */,
+				F1C2BB6A287B967F004E6FA4 /* Pinch and ZoomUITests */,
+				F1C2BB4E287B967C004E6FA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1C2BB4E287B967C004E6FA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1C2BB4D287B967C004E6FA4 /* Pinch and Zoom.app */,
+				F1C2BB5D287B967F004E6FA4 /* Pinch and ZoomTests.xctest */,
+				F1C2BB67287B967F004E6FA4 /* Pinch and ZoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1C2BB4F287B967C004E6FA4 /* Pinch and Zoom */ = {
+			isa = PBXGroup;
+			children = (
+				F1C2BB50287B967C004E6FA4 /* Pinch_and_ZoomApp.swift */,
+				F1C2BB52287B967C004E6FA4 /* ContentView.swift */,
+				F1C2BB54287B967F004E6FA4 /* Assets.xcassets */,
+				F1C2BB56287B967F004E6FA4 /* Preview Content */,
+			);
+			path = "Pinch and Zoom";
+			sourceTree = "<group>";
+		};
+		F1C2BB56287B967F004E6FA4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F1C2BB57287B967F004E6FA4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1C2BB60287B967F004E6FA4 /* Pinch and ZoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1C2BB61287B967F004E6FA4 /* Pinch_and_ZoomTests.swift */,
+			);
+			path = "Pinch and ZoomTests";
+			sourceTree = "<group>";
+		};
+		F1C2BB6A287B967F004E6FA4 /* Pinch and ZoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1C2BB6B287B967F004E6FA4 /* Pinch_and_ZoomUITests.swift */,
+				F1C2BB6D287B967F004E6FA4 /* Pinch_and_ZoomUITestsLaunchTests.swift */,
+			);
+			path = "Pinch and ZoomUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1C2BB4C287B967C004E6FA4 /* Pinch and Zoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C2BB71287B967F004E6FA4 /* Build configuration list for PBXNativeTarget "Pinch and Zoom" */;
+			buildPhases = (
+				F1C2BB49287B967C004E6FA4 /* Sources */,
+				F1C2BB4A287B967C004E6FA4 /* Frameworks */,
+				F1C2BB4B287B967C004E6FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pinch and Zoom";
+			productName = "Pinch and Zoom";
+			productReference = F1C2BB4D287B967C004E6FA4 /* Pinch and Zoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1C2BB5C287B967F004E6FA4 /* Pinch and ZoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C2BB74287B967F004E6FA4 /* Build configuration list for PBXNativeTarget "Pinch and ZoomTests" */;
+			buildPhases = (
+				F1C2BB59287B967F004E6FA4 /* Sources */,
+				F1C2BB5A287B967F004E6FA4 /* Frameworks */,
+				F1C2BB5B287B967F004E6FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C2BB5F287B967F004E6FA4 /* PBXTargetDependency */,
+			);
+			name = "Pinch and ZoomTests";
+			productName = "Pinch and ZoomTests";
+			productReference = F1C2BB5D287B967F004E6FA4 /* Pinch and ZoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1C2BB66287B967F004E6FA4 /* Pinch and ZoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1C2BB77287B967F004E6FA4 /* Build configuration list for PBXNativeTarget "Pinch and ZoomUITests" */;
+			buildPhases = (
+				F1C2BB63287B967F004E6FA4 /* Sources */,
+				F1C2BB64287B967F004E6FA4 /* Frameworks */,
+				F1C2BB65287B967F004E6FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1C2BB69287B967F004E6FA4 /* PBXTargetDependency */,
+			);
+			name = "Pinch and ZoomUITests";
+			productName = "Pinch and ZoomUITests";
+			productReference = F1C2BB67287B967F004E6FA4 /* Pinch and ZoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1C2BB45287B967C004E6FA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					F1C2BB4C287B967C004E6FA4 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					F1C2BB5C287B967F004E6FA4 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F1C2BB4C287B967C004E6FA4;
+					};
+					F1C2BB66287B967F004E6FA4 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F1C2BB4C287B967C004E6FA4;
+					};
+				};
+			};
+			buildConfigurationList = F1C2BB48287B967C004E6FA4 /* Build configuration list for PBXProject "Pinch and Zoom" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1C2BB44287B967C004E6FA4;
+			productRefGroup = F1C2BB4E287B967C004E6FA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1C2BB4C287B967C004E6FA4 /* Pinch and Zoom */,
+				F1C2BB5C287B967F004E6FA4 /* Pinch and ZoomTests */,
+				F1C2BB66287B967F004E6FA4 /* Pinch and ZoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1C2BB4B287B967C004E6FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C2BB58287B967F004E6FA4 /* Preview Assets.xcassets in Resources */,
+				F1C2BB55287B967F004E6FA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C2BB5B287B967F004E6FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C2BB65287B967F004E6FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1C2BB49287B967C004E6FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C2BB53287B967C004E6FA4 /* ContentView.swift in Sources */,
+				F1C2BB51287B967C004E6FA4 /* Pinch_and_ZoomApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C2BB59287B967F004E6FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C2BB62287B967F004E6FA4 /* Pinch_and_ZoomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C2BB63287B967F004E6FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C2BB6E287B967F004E6FA4 /* Pinch_and_ZoomUITestsLaunchTests.swift in Sources */,
+				F1C2BB6C287B967F004E6FA4 /* Pinch_and_ZoomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1C2BB5F287B967F004E6FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C2BB4C287B967C004E6FA4 /* Pinch and Zoom */;
+			targetProxy = F1C2BB5E287B967F004E6FA4 /* PBXContainerItemProxy */;
+		};
+		F1C2BB69287B967F004E6FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1C2BB4C287B967C004E6FA4 /* Pinch and Zoom */;
+			targetProxy = F1C2BB68287B967F004E6FA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F1C2BB6F287B967F004E6FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1C2BB70287B967F004E6FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1C2BB72287B967F004E6FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pinch and Zoom/Preview Content\"";
+				DEVELOPMENT_TEAM = WP84YCCZ8G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielmori.Pinch-and-Zoom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1C2BB73287B967F004E6FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pinch and Zoom/Preview Content\"";
+				DEVELOPMENT_TEAM = WP84YCCZ8G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielmori.Pinch-and-Zoom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1C2BB75287B967F004E6FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WP84YCCZ8G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielmori.Pinch-and-ZoomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pinch and Zoom.app/Pinch and Zoom";
+			};
+			name = Debug;
+		};
+		F1C2BB76287B967F004E6FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WP84YCCZ8G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielmori.Pinch-and-ZoomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pinch and Zoom.app/Pinch and Zoom";
+			};
+			name = Release;
+		};
+		F1C2BB78287B967F004E6FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WP84YCCZ8G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielmori.Pinch-and-ZoomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pinch and Zoom";
+			};
+			name = Debug;
+		};
+		F1C2BB79287B967F004E6FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WP84YCCZ8G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.danielmori.Pinch-and-ZoomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pinch and Zoom";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1C2BB48287B967C004E6FA4 /* Build configuration list for PBXProject "Pinch and Zoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C2BB6F287B967F004E6FA4 /* Debug */,
+				F1C2BB70287B967F004E6FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C2BB71287B967F004E6FA4 /* Build configuration list for PBXNativeTarget "Pinch and Zoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C2BB72287B967F004E6FA4 /* Debug */,
+				F1C2BB73287B967F004E6FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C2BB74287B967F004E6FA4 /* Build configuration list for PBXNativeTarget "Pinch and ZoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C2BB75287B967F004E6FA4 /* Debug */,
+				F1C2BB76287B967F004E6FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1C2BB77287B967F004E6FA4 /* Build configuration list for PBXNativeTarget "Pinch and ZoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1C2BB78287B967F004E6FA4 /* Debug */,
+				F1C2BB79287B967F004E6FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1C2BB45287B967C004E6FA4 /* Project object */;
+}
