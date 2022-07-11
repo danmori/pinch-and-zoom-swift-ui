@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F11C055C287BAFD900651521 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11C055B287BAFD900651521 /* ControlImageView.swift */; };
 		F1C2BB51287B967C004E6FA4 /* Pinch_and_ZoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2BB50287B967C004E6FA4 /* Pinch_and_ZoomApp.swift */; };
 		F1C2BB53287B967C004E6FA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2BB52287B967C004E6FA4 /* ContentView.swift */; };
 		F1C2BB55287B967F004E6FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C2BB54287B967F004E6FA4 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		F1C2BB62287B967F004E6FA4 /* Pinch_and_ZoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2BB61287B967F004E6FA4 /* Pinch_and_ZoomTests.swift */; };
 		F1C2BB6C287B967F004E6FA4 /* Pinch_and_ZoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2BB6B287B967F004E6FA4 /* Pinch_and_ZoomUITests.swift */; };
 		F1C2BB6E287B967F004E6FA4 /* Pinch_and_ZoomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2BB6D287B967F004E6FA4 /* Pinch_and_ZoomUITestsLaunchTests.swift */; };
+		F1C2BB7F287BAA07004E6FA4 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C2BB7E287BAA06004E6FA4 /* InfoPanelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F11C055B287BAFD900651521 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
 		F1C2BB4D287B967C004E6FA4 /* Pinch and Zoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pinch and Zoom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C2BB50287B967C004E6FA4 /* Pinch_and_ZoomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinch_and_ZoomApp.swift; sourceTree = "<group>"; };
 		F1C2BB52287B967C004E6FA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 		F1C2BB67287B967F004E6FA4 /* Pinch and ZoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pinch and ZoomUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C2BB6B287B967F004E6FA4 /* Pinch_and_ZoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinch_and_ZoomUITests.swift; sourceTree = "<group>"; };
 		F1C2BB6D287B967F004E6FA4 /* Pinch_and_ZoomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinch_and_ZoomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F1C2BB7E287BAA06004E6FA4 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,8 @@
 		F1C2BB7B287B9835004E6FA4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F1C2BB7E287BAA06004E6FA4 /* InfoPanelView.swift */,
+				F11C055B287BAFD900651521 /* ControlImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -289,8 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F11C055C287BAFD900651521 /* ControlImageView.swift in Sources */,
 				F1C2BB53287B967C004E6FA4 /* ContentView.swift in Sources */,
 				F1C2BB51287B967C004E6FA4 /* Pinch_and_ZoomApp.swift in Sources */,
+				F1C2BB7F287BAA07004E6FA4 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
